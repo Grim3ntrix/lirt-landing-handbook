@@ -1,6 +1,6 @@
 # PROJECT_BOOTSTRAP.md
 # Engineering Handbook Bootstrap Agent
-# Version: 0.1.0-alpha
+# Version: 0.2.0-alpha
 # Status: Alpha
 # Phase: Foundation
 # Authority: Highest
@@ -52,26 +52,85 @@ Language
 
 # PRIMARY GOAL
 
-Create a production-ready Engineering Handbook that defines:
+Establish the complete engineering foundation for this repository.
+
+The engineering foundation consists of three layers:
+
+1. Engineering Handbook
+2. Domain Bootstraps
+3. Domain Specifications
+
+Documentation always precedes implementation.
+
+Implementation must never begin until all required engineering documentation has been generated, reviewed, and approved.
+
+---
+
+## Layer 1 — Engineering Handbook
+
+The first responsibility is to create a production-ready Engineering Handbook that defines:
 
 - Architecture
-- Standards
+- Engineering Standards
 - Folder Structure
 - Design System
-- Component Standards
+- Component Architecture
 - React Standards
 - Inertia Standards
 - Laravel Standards
 - Tailwind Standards
+- nWidart Module Standards
 - AI Workflow
 - Performance Standards
 - Accessibility Standards
 - Code Review Standards
 - Definition of Done
 
-The handbook becomes the single source of truth.
+The Engineering Handbook becomes the single source of truth for every engineering decision within this repository.
 
-Do NOT skip directly to implementation.
+---
+
+## Layer 2 — Domain Bootstraps
+
+After the Engineering Handbook has been completed and approved, generate the required Domain Bootstrap documents.
+
+Each Domain Bootstrap defines how a specific project domain should be documented.
+
+Example domains include:
+
+- Landing Pages
+- Dashboard
+- Authentication
+- Settings
+- Inventory
+- Reports
+
+Each Domain Bootstrap inherits all Engineering Handbook standards.
+
+---
+
+## Layer 3 — Domain Specifications
+
+After a Domain Bootstrap has been approved, generate its implementation-ready specifications.
+
+Example:
+
+LANDING_BOOTSTRAP.md
+
+├── 01-minimal-saas
+├── 02-modern-gradient
+├── 03-dashboard-preview
+├── 04-floating-cards
+├── 05-bento-grid
+├── 06-storytelling
+└── 07-threejs
+
+Domain Specifications inherit both:
+
+- Engineering Handbook
+- Domain Bootstrap
+
+Implementation must only begin after all required specifications have been approved.
 
 ---
 
@@ -118,6 +177,8 @@ Create exactly this structure.
         15-definition-of-done.md
 
     landing-pages/
+
+        LANDING_BOOTSTRAP.md
 
         01-minimal-saas/
 
@@ -259,11 +320,100 @@ Approve every document.
 
 Phase 4
 
-Generate landing page documentation.
+Landing Page Bootstrap
 
-Do NOT generate implementation.
+If
+
+.ai/landing-pages/LANDING_BOOTSTRAP.md
+
+does not exist
+
+Generate it.
+
+The Landing Bootstrap defines:
+
+• Supported landing page styles
+
+• Required documentation structure
+
+• Document responsibilities
+
+• Generation order
+
+• Review workflow
+
+• Engineering Handbook inheritance
+
+• Complete landing page design catalog
+
+• Design Selection Matrix
+
+• Package Recommendation Matrix
+
+• AI workflow
+
+• Completion criteria
+
+If LANDING_BOOTSTRAP.md already exists:
+
+- Read it.
+- Follow it.
+- Do not regenerate it.
+- Do not overwrite it.
+
+Do not generate landing page specifications until LANDING_BOOTSTRAP.md has been approved.
+
+Do not generate implementation.
 
 ---
+
+Phase 5
+
+Landing Specifications
+
+Read
+
+.ai/landing-pages/LANDING_BOOTSTRAP.md
+
+Present the available landing page styles defined in LANDING_BOOTSTRAP.md.
+
+Wait for the user to select a landing page style.
+
+Generate only the selected landing page specification.
+
+Review the specification.
+
+Await approval.
+
+Do not generate implementation.
+
+---
+
+# BOOTSTRAP RULES
+
+Bootstrap documents define project architecture.
+
+Bootstrap documents are immutable after approval.
+
+If a bootstrap document already exists:
+
+Read it.
+
+Follow it.
+
+Do not regenerate it.
+
+Do not overwrite it.
+
+Do not modify it.
+
+Future modifications require explicit user approval.
+
+Bootstrap documents always take precedence over generated specifications.
+
+Specifications inherit bootstrap rules.
+
+Implementation inherits specification rules.
 
 # DOCUMENT TEMPLATE
 
@@ -427,20 +577,20 @@ If a conflict exists, stop and request clarification instead of guessing.
 
 # SUCCESS CRITERIA
 
-The Engineering Handbook is considered complete only when:
+The engineering foundation is considered complete only when:
 
-✓ Every required document exists.
+✓ Engineering Handbook approved
 
-✓ Every document follows the standard template.
+✓ LANDING_BOOTSTRAP.md generated, reviewed, and approved
 
-✓ Dependency order is respected.
+✓ All landing page specifications approved
 
-✓ No duplicate standards exist.
+✓ Folder structure finalized
 
-✓ Folder structure is finalized.
+✓ Architecture internally consistent
 
-✓ Architecture is internally consistent.
+✓ No conflicting standards exist
 
-✓ The handbook is ready to guide future implementation.
+✓ Documentation hierarchy complete
 
-Only after these criteria are met may application development begin.
+Only after these criteria are met may implementation begin.

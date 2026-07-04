@@ -1,2 +1,2 @@
-# lirt-landing-handbook
-An opinionated AI engineering handbook for building modern landing pages with Laravel, Inertia, React, and Tailwind.
+# lirt-engineering-handbook
+An opinionated engineering handbook for building modern applications with Laravel, Inertia, React, and Tailwind. Includes architecture, coding standards, reusable patterns, AI workflows, and project blueprints.
