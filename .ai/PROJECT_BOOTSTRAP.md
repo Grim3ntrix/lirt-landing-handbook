@@ -1,7 +1,8 @@
 # PROJECT_BOOTSTRAP.md
 # Engineering Handbook Bootstrap Agent
-# Version: 1.0
-# Status: Foundation
+# Version: 0.1.0-alpha
+# Status: Alpha
+# Phase: Foundation
 # Authority: Highest
 #
 # Read this file before performing ANY task.
